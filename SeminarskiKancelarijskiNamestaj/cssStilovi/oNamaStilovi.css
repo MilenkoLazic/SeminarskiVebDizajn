@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  ul li a{
+    color: #fff !important;
+    &:hover{
+      color:  #2c5a4a !important;
+      transition: 0.5;
+    }
+  }
+  a:visited {
+    color: green;
+    color: black;
+  }
+  .loginSlika{
+    width: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 35px;
+  }
+  a:hover {
+    color: greenyellow;
+    transition: 0.3s;
+  }
+  /* Kreiranje flex  */
+  .heder-meni {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2c2c2c; 
+      color: #ffffff;
+      padding: 20px;
+     
+  }
+  .loginDivSlika{
+    height: 26px !important;
+  }
+  header{
+    position:sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    right: 0;
+   
+  }
+  .heder-linkovi{
+    justify-self: center;
+    align-self: center;
+    margin-right: 110px;
+  }
+  
+  /* .logo-aplikacije img {
+    display: inline-block;
+    width: 40px;
+    margin-left: 10px;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+  } */
+  .logo-aplikacije img {
+    display: inline-block;
+    width: 70px;
+    object-fit: cover;
+    margin-left: 10px;
+  }
+  nav ul li {
+    display: inline-block;
+    padding-right: 10px;
+  }
+  
+  .logo-aplikacije h3 {
+    display: inline-block;
+    padding: 10px;
+    padding-top: 20px;
+  }
+  .logo-aplikacije {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  /*****************/
+  /*FOOTER SEKCIJA*/
+  .footer-sekcija{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding: 75px;
+    
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2c2c2c; 
+      color: #ffffff;
+  }
+  .kontaktInformacije{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+  }
+  .korisnickaPodrska{
+    gap: 15px;
+    display: flex;
+    flex-direction:column ;
+  }
+  .navigacioniLinkovi{
+    gap: 15px;
+  
+    display: flex;
+    flex-direction:column ;
+  }
+  .kontaktIkonice{
+    display: flex;
+    width: 70px;
+    gap: 10px;
+  }
+  
+  .kontaktIkonice a img{
+    max-width: 100%;
+    &:hover{
+      background-color: #fff !important;
+      border-radius: 12px;
+    }
+  }
+  
+  
+  .navigacioniLinkovi a{
+    color: #fff !important;
+    
+    &:hover{
+      color:  #2c5a4a !important;
+      transition: 0.5;
+    }
+  }
+  h1{
+    text-decoration: overline;
+  }
+  /* ******************** */
+
+
+
+
+
+  /* ************** */
+  /* SEKCIJA 1 */
+  /* ************** */
+.o-nama{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border-radius: 10px;
+    
+    margin-top: 105px;
+    margin-bottom: 80px;
+    gap: 50px;
+    background-color: #2c5a59;
+}
+.slika{
+    align-self:center ;
+    justify-self: center;
+    
+}
+.slika img{
+    width: 100%;
+    border-radius: 10px;
+}
+.tekst{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-self:center ;
+    justify-self: center;
+    color: white;
+    gap: 15px;
+    
+}
+.sekcija-2{
+    background-color: #2c5a4a;
+}
