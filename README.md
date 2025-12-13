@@ -13,4 +13,4 @@ Projekat je Seminarski rad iz predmeta Veb Dizajn i predstavlja kancelarijski na
 
 ## Pocetna Stranica
 Sadrzi informacije poput korisnickog feedback-a, opcija za nalog i takodje je responzivna.
-![alt Pocetna](https://github.com/MilenkoLazic/SeminarskiVebDizajn/blob/main/folder/Pocetna)
+![alt Pocetna](https://github.com/MilenkoLazic/SeminarskiVebDizajn/blob/main/folder/Pocetna.png)
